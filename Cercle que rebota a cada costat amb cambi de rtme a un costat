@@ -1,0 +1,18 @@
+void setup() {
+  size(400,400);
+  smooth();
+  }
+
+void draw () {
+  background(0);
+  ellipse(posX,200,30,30);
+  posX= posX+a;
+  if(posX==400)
+  {
+    a=-1;
+  }
+  if(posX==0)
+  {
+    a=5;
+  }
+   }
