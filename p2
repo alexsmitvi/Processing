@@ -1,0 +1,43 @@
+int x=100;
+int y=100;
+float xPosition = 0;
+float yPosition = 250;
+float xSpeed = 3;
+float ySpeed = 3;
+void setup() {
+  size(500,500);
+  smooth();
+noStroke();
+}
+void draw() {
+  background(255);
+  if (keyPressed && (key == CODED)) {
+  if (keyCode ==LEFT) {
+    x--;
+  }else if (keyCode ==RIGHT){
+    x++;
+ }
+ }
+ if (keyPressed && (key == CODED)) {
+  if (keyCode ==UP) {
+    y--;
+  }else if (keyCode ==DOWN){
+    y++;
+ }
+ }
+ if(xPosition<0){
+xSpeed = 3; 
+}
+
+if(xPosition>width){
+xSpeed = -3; 
+}
+
+fill(0,255,0);
+ellipse(xPosition,yPosition,10,10);
+xPosition += xSpeed; 
+
+fill(0,0,255);
+rect(x,y,10,10);
+
+}
