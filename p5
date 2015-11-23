@@ -1,3 +1,6 @@
+/HE posat una bola que apareix a partir de que et queden 7 vides
+
+
 int x=50;
 int y=50;
 int xPosition = 450;
