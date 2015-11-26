@@ -1,0 +1,1057 @@
+/he fet que aparegui una ellipse de color rosa que quan pases per damunt totes les boles s'en van a cantonada mes ajunyada 
+de la que estas
+/aquestes ellipses tenen diferent probabilitat de apareixer depenen les vides que tinguis, quantes menys vides mes probable de que apareixi
+int x=50;
+int y=50;
+float rx9=random(1000);
+float  ry9=random(700);
+float rx7=random(1000);
+float  ry7=random(700);
+float rx5=random(1000);
+float  ry5=random(700);
+float rx3=random(1000);
+float  ry3=random(700);
+float rx1=random(100);
+float  ry1=random(700);
+float serpx10=random(1000);
+float serpy10=random(700);
+float serpx8=random(1000);
+float serpy8=random(700);
+float serpx6=random(1000);
+float serpy6=random(700);
+float serpx4=random(1000);
+float serpy4=random(700);
+float serpx2=random(1000);
+float serpy2=random(700);
+float monox10=random(2000);
+float monoy10=random(1400);
+float monox9=random(1500);
+float monoy9=random(1000);
+float monox8=random(1400);
+float monoy8=random(900);
+float monox7=random(1300);
+float monoy7=random(800);
+float monox6=random(1200);
+float monoy6=random(700);
+float monox5=random(1000);
+float monoy5=random(700);
+float monox4=random(1100);
+float monoy4=random(700);
+float monox3=random(1000);
+float monoy3=random(700);
+float monox2=random(1000);
+float monoy2=random(700);
+float monox1=random(1000);
+float monoy1=random(700);
+int xPosition = 900;
+int yPosition = 650;
+int aPosition= 900;
+int bPosition= 100;
+int mPosition = 100;
+int nPosition = 650;
+int tPosition= 600;
+int gPosition=650;
+int kPosition=500;
+int lPosition=50;
+int iPosition=650;
+int uPosition=500;
+int punts=10;
+int score = 0;
+
+void setup() {
+size(1000,700);
+}
+void draw(){
+  background(0);
+  if (score==10){
+  fill (#FF03EF);
+  ellipse(monox10,monoy10,25,15);
+  if ((monox10<=x+25)&&(monox10>=x-25) &&(monoy10<=y+15) && (monoy10>=y-15))
+  {
+ if((x<=1000 && x>=500) && (y<=350 && y>=0)){
+  
+ xPosition = 0;
+ yPosition = 700;
+ aPosition= 0;
+ bPosition= 700;
+ mPosition = 0;
+ nPosition = 700;
+ tPosition= 0;
+ gPosition=700;
+ kPosition=0;
+ lPosition=700;
+ iPosition=0;
+ uPosition=700;    }
+  if((x<=1000 && x>=500) && (y<=700 && y>=350)){
+  
+ xPosition = 0;
+ yPosition = 0;
+ aPosition= 0;
+ bPosition= 0;
+ mPosition = 0;
+ nPosition = 0;
+ tPosition= 0;
+ gPosition=0;
+ kPosition=0;
+ lPosition=0;
+ iPosition=0;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=700 && y>=350)){
+  
+ xPosition = 1000;
+ yPosition = 0;
+ aPosition= 1000;
+ bPosition= 0;
+ mPosition = 1000;
+ nPosition = 0;
+ tPosition= 1000;
+ gPosition=0;
+ kPosition=1000;
+ lPosition=0;
+ iPosition=1000;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=350 && y>=0)){
+  
+xPosition = 1000;
+ yPosition = 700;
+ aPosition= 1000;
+ bPosition= 700;
+ mPosition = 1000;
+ nPosition = 700;
+ tPosition= 1000;
+ gPosition=700;
+ kPosition=1000;
+ lPosition=700;
+ iPosition=1000;
+ uPosition=700;     }
+      monox10=100000;
+      monoy10=70000;
+    }}
+     if (score==9){
+  fill (#FF03EF);
+  ellipse(monox9,monoy9,25,15);
+  if ((monox9<=x+25)&&(monox9>=x-25) &&(monoy9<=y+15) && (monoy9>=y-15))
+  {
+ if((x<=1000 && x>=500) && (y<=350 && y>=0)){
+  
+ xPosition = 0;
+ yPosition = 700;
+ aPosition= 0;
+ bPosition= 700;
+ mPosition = 0;
+ nPosition = 700;
+ tPosition= 0;
+ gPosition=700;
+ kPosition=0;
+ lPosition=700;
+ iPosition=0;
+ uPosition=700;    }
+  if((x<=1000 && x>=500) && (y<=700 && y>=350)){
+  
+ xPosition = 0;
+ yPosition = 0;
+ aPosition= 0;
+ bPosition= 0;
+ mPosition = 0;
+ nPosition = 0;
+ tPosition= 0;
+ gPosition=0;
+ kPosition=0;
+ lPosition=0;
+ iPosition=0;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=700 && y>=350)){
+  
+ xPosition = 1000;
+ yPosition = 0;
+ aPosition= 1000;
+ bPosition= 0;
+ mPosition = 1000;
+ nPosition = 0;
+ tPosition= 1000;
+ gPosition=0;
+ kPosition=1000;
+ lPosition=0;
+ iPosition=1000;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=350 && y>=0)){
+  
+xPosition = 1000;
+ yPosition = 700;
+ aPosition= 1000;
+ bPosition= 700;
+ mPosition = 1000;
+ nPosition = 700;
+ tPosition= 1000;
+ gPosition=700;
+ kPosition=1000;
+ lPosition=700;
+ iPosition=1000;
+ uPosition=700;     }
+      monox9=100000;
+      monoy9=70000;
+    }}
+if (score==8){
+  fill (#FF03EF);
+  ellipse(monox8,monoy8,25,15);
+  if ((monox8<=x+25)&&(monox8>=x-25) &&(monoy8<=y+15) && (monoy8>=y-15))
+  {
+ if((x<=1000 && x>=500) && (y<=350 && y>=0)){
+  
+ xPosition = 0;
+ yPosition = 700;
+ aPosition= 0;
+ bPosition= 700;
+ mPosition = 0;
+ nPosition = 700;
+ tPosition= 0;
+ gPosition=700;
+ kPosition=0;
+ lPosition=700;
+ iPosition=0;
+ uPosition=700;    }
+  if((x<=1000 && x>=500) && (y<=700 && y>=350)){
+  
+ xPosition = 0;
+ yPosition = 0;
+ aPosition= 0;
+ bPosition= 0;
+ mPosition = 0;
+ nPosition = 0;
+ tPosition= 0;
+ gPosition=0;
+ kPosition=0;
+ lPosition=0;
+ iPosition=0;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=700 && y>=350)){
+  
+ xPosition = 1000;
+ yPosition = 0;
+ aPosition= 1000;
+ bPosition= 0;
+ mPosition = 1000;
+ nPosition = 0;
+ tPosition= 1000;
+ gPosition=0;
+ kPosition=1000;
+ lPosition=0;
+ iPosition=1000;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=350 && y>=0)){
+  
+xPosition = 1000;
+ yPosition = 700;
+ aPosition= 1000;
+ bPosition= 700;
+ mPosition = 1000;
+ nPosition = 700;
+ tPosition= 1000;
+ gPosition=700;
+ kPosition=1000;
+ lPosition=700;
+ iPosition=1000;
+ uPosition=700;     }
+      monox8=100000;
+      monoy8=70000;
+    }}
+       if (score==7){
+  fill (#FF03EF);
+  ellipse(monox7,monoy7,25,15);
+  if ((monox7<=x+25)&&(monox7>=x-25) &&(monoy7<=y+15) && (monoy7>=y-15))
+  {
+ if((x<=1000 && x>=500) && (y<=350 && y>=0)){
+  
+ xPosition = 0;
+ yPosition = 700;
+ aPosition= 0;
+ bPosition= 700;
+ mPosition = 0;
+ nPosition = 700;
+ tPosition= 0;
+ gPosition=700;
+ kPosition=0;
+ lPosition=700;
+ iPosition=0;
+ uPosition=700;    }
+  if((x<=1000 && x>=500) && (y<=700 && y>=350)){
+  
+ xPosition = 0;
+ yPosition = 0;
+ aPosition= 0;
+ bPosition= 0;
+ mPosition = 0;
+ nPosition = 0;
+ tPosition= 0;
+ gPosition=0;
+ kPosition=0;
+ lPosition=0;
+ iPosition=0;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=700 && y>=350)){
+  
+ xPosition = 1000;
+ yPosition = 0;
+ aPosition= 1000;
+ bPosition= 0;
+ mPosition = 1000;
+ nPosition = 0;
+ tPosition= 1000;
+ gPosition=0;
+ kPosition=1000;
+ lPosition=0;
+ iPosition=1000;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=350 && y>=0)){
+  
+xPosition = 1000;
+ yPosition = 700;
+ aPosition= 1000;
+ bPosition= 700;
+ mPosition = 1000;
+ nPosition = 700;
+ tPosition= 1000;
+ gPosition=700;
+ kPosition=1000;
+ lPosition=700;
+ iPosition=1000;
+ uPosition=700;     }
+      monox7=100000;
+      monoy7=70000;
+    }}
+    if (score==6){
+  fill (#FF03EF);
+  ellipse(monox6,monoy6,25,15);
+  if ((monox6<=x+25)&&(monox6>=x-25) &&(monoy6<=y+15) && (monoy6>=y-15))
+  {
+ if((x<=1000 && x>=500) && (y<=350 && y>=0)){
+  
+ xPosition = 0;
+ yPosition = 700;
+ aPosition= 0;
+ bPosition= 700;
+ mPosition = 0;
+ nPosition = 700;
+ tPosition= 0;
+ gPosition=700;
+ kPosition=0;
+ lPosition=700;
+ iPosition=0;
+ uPosition=700;    }
+  if((x<=1000 && x>=500) && (y<=700 && y>=350)){
+  
+ xPosition = 0;
+ yPosition = 0;
+ aPosition= 0;
+ bPosition= 0;
+ mPosition = 0;
+ nPosition = 0;
+ tPosition= 0;
+ gPosition=0;
+ kPosition=0;
+ lPosition=0;
+ iPosition=0;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=700 && y>=350)){
+  
+ xPosition = 1000;
+ yPosition = 0;
+ aPosition= 1000;
+ bPosition= 0;
+ mPosition = 1000;
+ nPosition = 0;
+ tPosition= 1000;
+ gPosition=0;
+ kPosition=1000;
+ lPosition=0;
+ iPosition=1000;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=350 && y>=0)){
+  
+xPosition = 1000;
+ yPosition = 700;
+ aPosition= 1000;
+ bPosition= 700;
+ mPosition = 1000;
+ nPosition = 700;
+ tPosition= 1000;
+ gPosition=700;
+ kPosition=1000;
+ lPosition=700;
+ iPosition=1000;
+ uPosition=700;     }
+      monox6=100000;
+      monoy6=70000;
+    }}
+       if (score==5){
+  fill (#FF03EF);
+  ellipse(monox5,monoy5,25,15);
+  if ((monox5<=x+25)&&(monox5>=x-25) &&(monoy5<=y+15) && (monoy5>=y-15))
+  {
+ if((x<=1000 && x>=500) && (y<=350 && y>=0)){
+  
+ xPosition = 0;
+ yPosition = 700;
+ aPosition= 0;
+ bPosition= 700;
+ mPosition = 0;
+ nPosition = 700;
+ tPosition= 0;
+ gPosition=700;
+ kPosition=0;
+ lPosition=700;
+ iPosition=0;
+ uPosition=700;    }
+  if((x<=1000 && x>=500) && (y<=700 && y>=350)){
+  
+ xPosition = 0;
+ yPosition = 0;
+ aPosition= 0;
+ bPosition= 0;
+ mPosition = 0;
+ nPosition = 0;
+ tPosition= 0;
+ gPosition=0;
+ kPosition=0;
+ lPosition=0;
+ iPosition=0;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=700 && y>=350)){
+  
+ xPosition = 1000;
+ yPosition = 0;
+ aPosition= 1000;
+ bPosition= 0;
+ mPosition = 1000;
+ nPosition = 0;
+ tPosition= 1000;
+ gPosition=0;
+ kPosition=1000;
+ lPosition=0;
+ iPosition=1000;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=350 && y>=0)){
+  
+xPosition = 1000;
+ yPosition = 700;
+ aPosition= 1000;
+ bPosition= 700;
+ mPosition = 1000;
+ nPosition = 700;
+ tPosition= 1000;
+ gPosition=700;
+ kPosition=1000;
+ lPosition=700;
+ iPosition=1000;
+ uPosition=700;     }
+      monox5=100000;
+      monoy5=70000;
+    }}
+       if (score==4){
+  fill (#FF03EF);
+  ellipse(monox4,monoy4,25,15);
+  if ((monox4<=x+25)&&(monox4>=x-25) &&(monoy4<=y+15) && (monoy4>=y-15))
+  {
+ if((x<=1000 && x>=500) && (y<=350 && y>=0)){
+  
+ xPosition = 0;
+ yPosition = 700;
+ aPosition= 0;
+ bPosition= 700;
+ mPosition = 0;
+ nPosition = 700;
+ tPosition= 0;
+ gPosition=700;
+ kPosition=0;
+ lPosition=700;
+ iPosition=0;
+ uPosition=700;    }
+  if((x<=1000 && x>=500) && (y<=700 && y>=350)){
+  
+ xPosition = 0;
+ yPosition = 0;
+ aPosition= 0;
+ bPosition= 0;
+ mPosition = 0;
+ nPosition = 0;
+ tPosition= 0;
+ gPosition=0;
+ kPosition=0;
+ lPosition=0;
+ iPosition=0;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=700 && y>=350)){
+  
+ xPosition = 1000;
+ yPosition = 0;
+ aPosition= 1000;
+ bPosition= 0;
+ mPosition = 1000;
+ nPosition = 0;
+ tPosition= 1000;
+ gPosition=0;
+ kPosition=1000;
+ lPosition=0;
+ iPosition=1000;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=350 && y>=0)){
+  
+xPosition = 1000;
+ yPosition = 700;
+ aPosition= 1000;
+ bPosition= 700;
+ mPosition = 1000;
+ nPosition = 700;
+ tPosition= 1000;
+ gPosition=700;
+ kPosition=1000;
+ lPosition=700;
+ iPosition=1000;
+ uPosition=700;     }
+      monox4=100000;
+      monoy4=70000;
+    }}
+       if (score==3){
+  fill (#FF03EF);
+  ellipse(monox3,monoy3,25,15);
+  if ((monox3<=x+25)&&(monox3>=x-25) &&(monoy3<=y+15) && (monoy3>=y-15))
+  {
+ if((x<=1000 && x>=500) && (y<=350 && y>=0)){
+  
+ xPosition = 0;
+ yPosition = 700;
+ aPosition= 0;
+ bPosition= 700;
+ mPosition = 0;
+ nPosition = 700;
+ tPosition= 0;
+ gPosition=700;
+ kPosition=0;
+ lPosition=700;
+ iPosition=0;
+ uPosition=700;    }
+  if((x<=1000 && x>=500) && (y<=700 && y>=350)){
+  
+ xPosition = 0;
+ yPosition = 0;
+ aPosition= 0;
+ bPosition= 0;
+ mPosition = 0;
+ nPosition = 0;
+ tPosition= 0;
+ gPosition=0;
+ kPosition=0;
+ lPosition=0;
+ iPosition=0;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=700 && y>=350)){
+  
+ xPosition = 1000;
+ yPosition = 0;
+ aPosition= 1000;
+ bPosition= 0;
+ mPosition = 1000;
+ nPosition = 0;
+ tPosition= 1000;
+ gPosition=0;
+ kPosition=1000;
+ lPosition=0;
+ iPosition=1000;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=350 && y>=0)){
+  
+xPosition = 1000;
+ yPosition = 700;
+ aPosition= 1000;
+ bPosition= 700;
+ mPosition = 1000;
+ nPosition = 700;
+ tPosition= 1000;
+ gPosition=700;
+ kPosition=1000;
+ lPosition=700;
+ iPosition=1000;
+ uPosition=700;     }
+      monox3=100000;
+      monoy3=70000;
+    }}
+       if (score==2){
+  fill (#FF03EF);
+  ellipse(monox2,monoy2,25,15);
+  if ((monox2<=x+25)&&(monox2>=x-25) &&(monoy2<=y+15) && (monoy2>=y-15))
+  {
+ if((x<=1000 && x>=500) && (y<=350 && y>=0)){
+  
+ xPosition = 0;
+ yPosition = 700;
+ aPosition= 0;
+ bPosition= 700;
+ mPosition = 0;
+ nPosition = 700;
+ tPosition= 0;
+ gPosition=700;
+ kPosition=0;
+ lPosition=700;
+ iPosition=0;
+ uPosition=700;    }
+  if((x<=1000 && x>=500) && (y<=700 && y>=350)){
+  
+ xPosition = 0;
+ yPosition = 0;
+ aPosition= 0;
+ bPosition= 0;
+ mPosition = 0;
+ nPosition = 0;
+ tPosition= 0;
+ gPosition=0;
+ kPosition=0;
+ lPosition=0;
+ iPosition=0;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=700 && y>=350)){
+  
+ xPosition = 1000;
+ yPosition = 0;
+ aPosition= 1000;
+ bPosition= 0;
+ mPosition = 1000;
+ nPosition = 0;
+ tPosition= 1000;
+ gPosition=0;
+ kPosition=1000;
+ lPosition=0;
+ iPosition=1000;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=350 && y>=0)){
+  
+xPosition = 1000;
+ yPosition = 700;
+ aPosition= 1000;
+ bPosition= 700;
+ mPosition = 1000;
+ nPosition = 700;
+ tPosition= 1000;
+ gPosition=700;
+ kPosition=1000;
+ lPosition=700;
+ iPosition=1000;
+ uPosition=700;     }
+      monox2=100000;
+      monoy2=70000;
+    }}
+       if (score==1){
+  fill (#FF03EF);
+  ellipse(monox1,monoy1,25,15);
+  if ((monox1<=x+25)&&(monox1>=x-25) &&(monoy1<=y+15) && (monoy1>=y-15))
+  {
+ if((x<=1000 && x>=500) && (y<=350 && y>=0)){
+  
+ xPosition = 0;
+ yPosition = 700;
+ aPosition= 0;
+ bPosition= 700;
+ mPosition = 0;
+ nPosition = 700;
+ tPosition= 0;
+ gPosition=700;
+ kPosition=0;
+ lPosition=700;
+ iPosition=0;
+ uPosition=700;    }
+  if((x<=1000 && x>=500) && (y<=700 && y>=350)){
+  
+ xPosition = 0;
+ yPosition = 0;
+ aPosition= 0;
+ bPosition= 0;
+ mPosition = 0;
+ nPosition = 0;
+ tPosition= 0;
+ gPosition=0;
+ kPosition=0;
+ lPosition=0;
+ iPosition=0;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=700 && y>=350)){
+  
+ xPosition = 1000;
+ yPosition = 0;
+ aPosition= 1000;
+ bPosition= 0;
+ mPosition = 1000;
+ nPosition = 0;
+ tPosition= 1000;
+ gPosition=0;
+ kPosition=1000;
+ lPosition=0;
+ iPosition=1000;
+ uPosition=0;    }
+ if((x<=500 && x>=0) && (y<=350 && y>=0)){
+  
+xPosition = 1000;
+ yPosition = 700;
+ aPosition= 1000;
+ bPosition= 700;
+ mPosition = 1000;
+ nPosition = 700;
+ tPosition= 1000;
+ gPosition=700;
+ kPosition=1000;
+ lPosition=700;
+ iPosition=1000;
+ uPosition=700;     }
+      monox1=100000;
+      monoy1=70000;
+    }}
+  if (keyPressed && (key == CODED)) {
+  if (keyCode ==LEFT) {
+    x = x-6;
+  }else if (keyCode ==RIGHT){
+    x = x+6;
+ }
+ }
+ if (keyPressed && (key == CODED)) {
+  if (keyCode ==UP) {
+    y = y-6;
+  }else if (keyCode ==DOWN){
+    y = y+6;
+ }
+ }
+ if (x < iPosition){
+  iPosition = iPosition-4;
+}
+if (y < uPosition) {
+  uPosition = uPosition-3;
+}
+if (x > iPosition) {
+  iPosition = iPosition+2;
+}
+if (y > uPosition) {
+  uPosition = uPosition+1;
+}
+if((iPosition<=x+10)&&(uPosition>=x) &&(iPosition<=y+10) && (uPosition>=y))
+{
+  score = score-1;
+ x=50;
+ y=50;
+ xPosition = 900;
+ yPosition = 650;
+ aPosition= 900;
+ bPosition= 100;
+ mPosition = 100;
+ nPosition = 650;
+ tPosition= 600;
+ gPosition=650;
+  kPosition=500;
+ lPosition=50;
+ iPosition=650;
+ uPosition=500;
+}
+fill(#FEFF00);
+ellipse(iPosition,uPosition,10,10);
+if (x < xPosition){
+  xPosition = xPosition-1;
+}
+if (y < yPosition) {
+  yPosition = yPosition-1;
+}
+if (x > xPosition) {
+  xPosition = xPosition+1;
+}
+if (y > yPosition) {
+  yPosition = yPosition+1;
+}
+fill(#FEFF00);
+ellipse(xPosition,yPosition,10,10);
+if (x < kPosition){
+  kPosition = kPosition-4;
+}
+if (y < lPosition) {
+  lPosition = lPosition-4;
+}
+if (x > kPosition) {
+  kPosition = kPosition+2;
+}
+if (y > lPosition) {
+  lPosition = lPosition+2;
+}
+fill(#FEFF00);
+ellipse(kPosition,lPosition,10,10);
+if((kPosition<=x+10)&&(kPosition>=x) &&(lPosition<=y+10) && (lPosition>=y))
+{
+  score = score-1;
+ x=50;
+ y=50;
+ xPosition = 900;
+ yPosition = 650;
+ aPosition= 900;
+ bPosition= 100;
+ mPosition = 100;
+ nPosition = 650;
+ tPosition= 600;
+ gPosition=650;
+  kPosition=500;
+ lPosition=50;
+ iPosition=650;
+ uPosition=500;
+}
+
+if (x< aPosition){
+  aPosition = aPosition-2;
+}
+if (y < bPosition) {
+  bPosition = bPosition-2;
+}
+if (x > aPosition) {
+  aPosition = aPosition+2;
+}
+if (y > bPosition) {
+  bPosition = bPosition+2;
+}
+fill(#FEFF00);
+ellipse(aPosition,bPosition,10,10);
+
+
+if(score<=8){
+  fill(#FEFF00);
+ellipse(tPosition,gPosition,10,10);
+if (x< tPosition){
+  tPosition = tPosition-4;
+}
+if (y <gPosition) {
+  gPosition = gPosition-4;
+}
+if (x > tPosition) {
+  tPosition = tPosition+4;
+}
+if (y > gPosition) {
+  gPosition = gPosition+4;
+}if((tPosition<=x+10)&&(tPosition>=x) &&(gPosition<=y+10) && (gPosition>=y))
+{
+  score = score-1;
+ x=50;
+ y=50;
+ xPosition = 900;
+ yPosition = 650;
+ aPosition= 900;
+ bPosition= 100;
+ mPosition = 100;
+ nPosition = 650;
+ tPosition= 600;
+ gPosition=650;
+  kPosition=500;
+ lPosition=50;
+ iPosition=650;
+ uPosition=500;
+}}
+if(score<=9){
+  fill(#FEFF00);
+ellipse(mPosition,nPosition,10,10);
+if (x< mPosition){
+  mPosition = mPosition-3;
+}
+if (y < nPosition) {
+  nPosition = nPosition-3;
+}
+if (x > mPosition) {
+  mPosition = mPosition+3;
+}
+if (y > nPosition) {
+  nPosition = nPosition+3;
+}
+if((mPosition<=x+10)&&(mPosition>=x) &&(nPosition<=y+10) && (nPosition>=y))
+{
+  score = score-1;
+ x=50;
+ y=50;
+  xPosition = 900;
+ yPosition = 650;
+ aPosition= 900;
+ bPosition= 100;
+ mPosition = 100;
+ nPosition = 650;
+ tPosition= 600;
+ gPosition=650;
+ kPosition=500;
+ lPosition=50;
+ iPosition=650;
+ uPosition=500;
+}
+}
+
+if((xPosition<=x+10)&&(xPosition>=x) &&(yPosition<=y+10) && (yPosition>=y))
+{
+  score = score-1;
+  x=50;
+ y=50;
+ xPosition = 900;
+ yPosition = 650;
+ aPosition= 900;
+ bPosition= 100;
+ mPosition = 100;
+ nPosition = 650;
+ tPosition= 600;
+ gPosition=650;
+ kPosition=500;
+ lPosition=50; 
+ iPosition=650;
+ uPosition=500;
+}
+if((aPosition<=x+10)&&(aPosition>=x) &&(bPosition<=y+10) && (bPosition>=y))
+{
+  score = score-1;
+  x=50;
+ y=50;
+ xPosition = 900;
+ yPosition = 650;
+ aPosition= 900;
+ bPosition= 100;
+ mPosition = 100;
+ nPosition = 650;
+ tPosition= 600;
+ gPosition=650;
+ kPosition=500;
+ lPosition=50;
+ iPosition=650;
+ uPosition=500;
+}
+
+if (score<=0){
+  fill(0);
+  rect(0,0,10000,1000);
+  fill (255,0,0);
+  text ("Game Over",500,350);
+  score = 0;
+  x=5000;
+  y=5000;
+  xPosition = 4050;
+  yPosition = 4050;
+  aPosition = 4050;
+  bPosition = 5000;
+  mPosition = 5000;
+ nPosition = 4500;
+  tPosition =3000;
+ gPosition =3000;
+ kPosition=5000;
+ lPosition=5000;
+ iPosition=6500;
+ uPosition=5000;
+}
+if (score==9){
+  fill (255);
+  ellipse(rx9,ry9,25,15);
+  if ((rx9<=x+25)&&(rx9>=x-25) &&(ry9<=y+15) && (ry9>=y-15))
+  {
+    score= score+1;
+    rx9=random(1000);
+    ry9=random(700);
+}
+}
+if (score==7){
+  fill (255);
+  ellipse(rx7,ry7,25,15);
+  if ((rx7<=x+25)&&(rx7>=x-25) &&(ry7<=y+15) && (ry7>=y-15))
+  {
+    score= score+1;
+    rx7=random(1000);
+    ry7=random(700);
+}
+}
+if (score==5){
+  fill (255);
+  ellipse(rx5,ry5,25,15);
+  if ((rx5<=x+25)&&(rx5>=x-25) &&(ry5<=y+15) && (ry5>=y-15))
+  {
+    score= score+1;
+    rx5=random(1000);
+    ry5=random(700);
+}
+}
+if (score==3){
+  fill (255);
+  ellipse(rx3,ry3,25,15);
+  if ((rx3<=x+25)&&(rx3>=x-25) &&(ry3<=y+15) && (ry3>=y-15))
+  {
+    score= score+1;
+    rx3=random(1000);
+    ry3=random(700);
+}
+}
+if (score==1){
+  fill (255);
+  ellipse(rx1,ry1,25,15);
+  if ((rx1<=x+25)&&(rx1>=x-25) &&(ry1<=y+15) && (ry1>=y-15))
+  {
+    score=score+1;
+    rx1=random(1000);
+    ry1=random(700);
+}
+}
+if (score==10){
+  fill (#FF0303);
+  ellipse(serpx10,serpy10,25,15);
+  if ((serpx10<=x+25)&&(serpx10>=x-25) &&(serpy10<=y+15) && (serpy10>=y-15))
+  {
+    punts=punts+1;
+    serpx10=random(1000);
+    serpy10=random(700);
+}
+}
+if (score==8){
+  fill (#FF0303);
+  ellipse(serpx8,serpy8,25,15);
+  if ((serpx8<=x+25)&&(serpx8>=x-25) &&(serpy8<=y+15) && (serpy8>=y-15))
+  {
+    punts=punts+1;
+    serpx8=random(1000);
+    serpy8=random(700);
+}
+}
+if (score==6){
+  fill (#FF0303);
+  ellipse(serpx6,serpy6,25,15);
+  if ((serpx6<=x+25)&&(serpx6>=x-25) &&(serpy6<=y+15) && (serpy6>=y-15))
+  {
+    punts=punts+1;
+    serpx6=random(1000);
+    serpy6=random(700);
+}
+}
+if (score==4){
+  fill (#FF0303);
+  ellipse(serpx4,serpy4,25,15);
+  if ((serpx4<=x+25)&&(serpx4>=x-25) &&(serpy4<=y+15) && (serpy4>=y-15))
+  {
+    punts=punts+1;
+    serpx4=random(1000);
+    serpy4=random(700);
+}
+}
+if (score==2){
+  fill (#FF0303);
+  ellipse(serpx2,serpy2,25,15);
+  if ((serpx2<=x+25)&&(serpx2>=x-25) &&(serpy2<=y+15) && (serpy2>=y-15))
+  {
+    punts=punts+1;
+    serpx2=random(1000);
+    serpy2=random(700);
+}
+}
+if (x<0){
+  x=1000;
+ }
+ if (x>1000){
+  x=0;}
+  if (y<0){
+    y=700;
+  }
+    if (y>700){
+    y=0;
+  }
+
+fill(0,0,255);
+rect(x,y,20,20);
+fill(0,255,0);
+text("Vidas: " +score,900,650);
+text("Puntos:" +punts,900,660);
+}
